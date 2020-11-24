@@ -1,0 +1,37 @@
+
+
+@media screen and (max-width: 680px){
+    .overlay{
+       position: initial;
+    }
+
+     .medio h1{
+        font-size: 30px;
+        word-spacing: 5px;
+       
+    }
+
+    .overlay .button-video, .overlay .button-sound{
+        width: 50%;
+        padding: 5px;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .overlay .button-video, .overlay .button-sound{
+        width: 80%;
+        min-width: 80%;
+      
+    }
+
+    .medio h1{
+        font-size: 30px;
+        word-spacing: 5px;
+    
+    }
+
+
+}
