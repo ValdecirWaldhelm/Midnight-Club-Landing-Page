@@ -33,5 +33,9 @@
     
     }
 
+    .formulario  form input[type=text], .formulario  form input[type=email], .formulario  form input[type=telefone], .formulario  form input[type=submit]{
+        width: 100%;
+    }
+
 
 }

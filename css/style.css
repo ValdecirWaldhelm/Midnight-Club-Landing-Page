@@ -101,11 +101,11 @@ article{
 .medio{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 0 10px;
 }
 
 .carrosel{
-    padding: 20px;
+    padding: 0 10px;
 }
 
 .medio h1{
@@ -122,7 +122,7 @@ article{
     color: white;
     text-shadow: 5px 5px 10px purple;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 25px;
 }
 
@@ -152,14 +152,12 @@ article{
 
 /*FORMULARIO*/
 .formulario{
-    width: 100%; 
-    margin: 20px auto;  
+    padding: 60px 2%;
 }
 
 form{
-    width: 50%;
-    min-width: 80%;
-    height: 500px;
+    width: 100%;
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
@@ -227,38 +225,9 @@ form input:focus{
     font-style: italic;
     margin-top: 20px;
     cursor: pointer;
-    animation-name: animacao;
-    animation-duration: 2s;
     
 }
 
-@keyframes animacao{
-    0%{
-        box-shadow: 10px 10px 20px 20px aqua;
-        border-radius: 50%;
-        
-    }
-    50%{
-        box-shadow: 10px 10px 100px 100px rgb(11, 185, 185);
-        width: 50%;
-        height: 50%;
-        background-image: url('../img/midnight-club-logo-5077.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        
-    }
-    100%{
-        box-shadow: 20px 20px 300px 300px blue;
-        width: 80%;
-        height: 80%;
-        background-image: url('../img/midnight-club-logo-5077.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-    }
-    
-}
 
 footer{
     width: 100%;

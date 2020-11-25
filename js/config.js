@@ -24,7 +24,7 @@ function disableMute(){
 }
 
 
-myFunction()
+myFunctionvideo()
 
 enableMute()
 
